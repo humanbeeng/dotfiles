@@ -1,8 +1,4 @@
 
-# Nerd Fonts
+# My Personal Fonts
 
-This is an archived font from a Nerd Fonts release.
-
-For more information see:
-* https://github.com/ryanoasis/nerd-fonts/
-* https://github.com/ryanoasis/nerd-fonts/releases/latest/
+Some are patched, some are just plain. I love these fonts !

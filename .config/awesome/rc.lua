@@ -631,6 +631,6 @@ awful.spawn.with_shell("picom")
 awful.spawn.with_shell("/home/humanbeeng/polybar-collection/launch.sh")
 
 -- Gap
-beautiful.useless_gap = 2
+beautiful.useless_gap = 0
 
 -- Theming

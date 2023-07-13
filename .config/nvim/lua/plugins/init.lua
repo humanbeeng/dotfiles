@@ -219,7 +219,7 @@ local default_plugins = {
   -- file managing , picker etc
   {
     "nvim-tree/nvim-tree.lua",
-    cmd = { "NvimTreeToggle", "NvimTreeFocus" },
+    cmd = { "NvimTreeToggle" },
     init = function()
       require("core.utils").load_mappings "nvimtree"
     end,
@@ -232,7 +232,7 @@ local default_plugins = {
       vim.g.nvimtree_side = opts.view.side
     end,
   },
-
+  
   {
     "nvim-telescope/telescope.nvim",
     dependencies = "nvim-treesitter/nvim-treesitter",

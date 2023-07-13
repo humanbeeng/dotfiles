@@ -1,5 +1,4 @@
 local M = {}
-
 M.general = {
   i = {
     ["kj"] = { "<Esc>", "Go to normal mode" },

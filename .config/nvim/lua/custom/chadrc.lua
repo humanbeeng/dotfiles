@@ -1,6 +1,6 @@
 local M = {}
 M.ui = {
-  theme = "palenight",
+  theme = "vscode_dark",
   hl_override = require "custom.highlights",
   statusline = {
     theme = "minimal", -- default/vscode/vscode_colored/minimal

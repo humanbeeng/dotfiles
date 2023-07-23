@@ -294,7 +294,7 @@ globalkeys = gears.table.join(
 	awful.key({ modkey }, "Escape", awful.tag.history.restore, { description = "go back", group = "tag" }),
 
 	awful.key({ modkey }, "b", function()
-		awful.util.spawn("google-chrome-stable")
+		awful.util.spawn("brave")
 	end),
 
 	awful.key({ modkey }, "e", function()
@@ -372,10 +372,38 @@ globalkeys = gears.table.join(
 		end
 	end, { description = "restore minimized", group = "client" }),
 
+	-- Screenshot
+	-- awful.key({ modkey }, "Print", {
+	-- 	description = "Take a screenshot of entire screen",
+	-- 	function()
+	-- 		awful.util.spawn_with_shell("gnome-screenshot")
+	-- 	end,
+	-- 	group = "screenshot",
+	-- }),
+
+	awful.key({}, "Print", function()
+		awful.util.spawn_with_shell("gnome-screenshot -a -c")
+	end, { description = "Take a screenshot of entire screen", group = "screenshot" }),
+	-- awful.key(
+	-- 	{ modkey },
+	-- 	"Print",
+	-- 	scrot_selection,
+	-- 	{ description = "Take a screenshot of selection", group = "screenshot" }
+	-- ),
+	awful.key(
+		{ "Shift" },
+		"Print",
+		scrot_window,
+		{ description = "Take a screenshot of focused window", group = "screenshot" }
+	),
+	awful.key({ "Ctrl" }, "Print", scrot_delay, { description = "Take a screenshot of delay", group = "screenshot" }),
+
 	-- Prompt
+	-- awful.key({ modkey }, "r", function()
+	-- 	awful.util.spawn("dmenu_run")
 	awful.key({ modkey }, "r", function()
-		awful.util.spawn("dmenu_run")
-	end, { description = "run dmenu", group = "launcher" }),
+		awful.util.spawn("rofi -show drun")
+	end, { description = "run rofi", group = "launcher" }),
 
 	awful.key({ modkey }, "x", function()
 		awful.prompt.run({
@@ -632,5 +660,3 @@ awful.spawn.with_shell("/home/humanbeeng/polybar-collection/launch.sh")
 
 -- Gap
 beautiful.useless_gap = 0
-
--- Theming

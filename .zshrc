@@ -101,6 +101,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 alias lepos='cd $HOME/projects/lepo/server; nvim'
+alias nv='pwd && nvim'
+alias tx='tmux -u'
+
 
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/go
@@ -110,7 +113,9 @@ export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
 export JAVA_HOME=$HOME/.jdks/jdk-17
 export PATH=$PATH:$JAVA_HOME/bin
-
+export TERM=xterm-256color
+export LC_ALL=en_IN.UTF-8
+export LANG=en_IN.UTF-8
 # pnpm
 export PNPM_HOME="/home/humanbeeng/.local/share/pnpm"
 case ":$PATH:" in
@@ -118,3 +123,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+setopt share_history
+
+setopt auto_cd

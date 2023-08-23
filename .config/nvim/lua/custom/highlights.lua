@@ -1,3 +1,0 @@
-return {
-  TSType = { italic = true },
-}

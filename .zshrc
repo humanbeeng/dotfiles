@@ -113,7 +113,6 @@ export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
 export JAVA_HOME=$HOME/.jdks/jdk-17
 export PATH=$PATH:$JAVA_HOME/bin
-export TERM=xterm-256color
 export LC_ALL=en_IN.UTF-8
 export LANG=en_IN.UTF-8
 # pnpm
@@ -126,3 +125,5 @@ esac
 setopt share_history
 
 setopt auto_cd
+alias tm=tmux-multi
+export TERM=xterm-256color

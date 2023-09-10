@@ -40,7 +40,7 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 local options = { noremap = true }
-vim.keymap.set("i", "kj", "<Esc>", options)
+vim.keymap.set('i', 'kj', '<Esc>', options)
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
@@ -135,7 +135,7 @@ require('lazy').setup({
     -- Theme inspired by Atom
     'navarasu/onedark.nvim',
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      -- vim.cmd.colorscheme 'onedark'
     end,
   },
 
@@ -147,6 +147,51 @@ require('lazy').setup({
       options = {
         icons_enabled = true,
         theme = 'onedark',
+        -- theme = function()
+        --   local colors = {
+        --     darkgray = '#16161d',
+        --     gray = '#727169',
+        --     innerbg = nil,
+        --     outerbg = '#16161D',
+        --     normal = '#7e9cd8',
+        --     insert = '#98bb6c',
+        --     visual = '#ffa066',
+        --     replace = '#e46876',
+        --     command = '#e6c384',
+        --   }
+        --   return {
+        --     inactive = {
+        --       a = { fg = colors.gray, bg = colors.outerbg, gui = 'bold' },
+        --       b = { fg = colors.gray, bg = colors.outerbg },
+        --       c = { fg = colors.gray, bg = colors.innerbg },
+        --     },
+        --     visual = {
+        --       a = { fg = colors.darkgray, bg = colors.visual, gui = 'bold' },
+        --       b = { fg = colors.gray, bg = colors.outerbg },
+        --       c = { fg = colors.gray, bg = colors.innerbg },
+        --     },
+        --     replace = {
+        --       a = { fg = colors.darkgray, bg = colors.replace, gui = 'bold' },
+        --       b = { fg = colors.gray, bg = colors.outerbg },
+        --       c = { fg = colors.gray, bg = colors.innerbg },
+        --     },
+        --     normal = {
+        --       a = { fg = colors.darkgray, bg = colors.normal, gui = 'bold' },
+        --       b = { fg = colors.gray, bg = colors.outerbg },
+        --       c = { fg = colors.gray, bg = colors.innerbg },
+        --     },
+        --     insert = {
+        --       a = { fg = colors.darkgray, bg = colors.insert, gui = 'bold' },
+        --       b = { fg = colors.gray, bg = colors.outerbg },
+        --       c = { fg = colors.gray, bg = colors.innerbg },
+        --     },
+        --     command = {
+        --       a = { fg = colors.darkgray, bg = colors.command, gui = 'bold' },
+        --       b = { fg = colors.gray, bg = colors.outerbg },
+        --       c = { fg = colors.gray, bg = colors.innerbg },
+        --     },
+        --   }
+        -- end,
         component_separators = '|',
         section_separators = '',
       },
@@ -255,18 +300,17 @@ vim.o.termguicolors = true
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 vim.keymap.set('n', '<C-s>', function()
-  vim.api.nvim_command('write')
-end, { desc = "Save file" })
+  vim.api.nvim_command 'write'
+end, { desc = 'Save file' })
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
 -- Window management
-vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to left window" })
-vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Go to top window" })
-vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Go to bottom window" })
-vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to right window" })
-
+vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Go to left window' })
+vim.keymap.set('n', '<C-k>', '<C-w>k', { desc = 'Go to top window' })
+vim.keymap.set('n', '<C-j>', '<C-w>j', { desc = 'Go to bottom window' })
+vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Go to right window' })
 
 -- File explorer
 
@@ -441,16 +485,16 @@ end
 --  define the property 'filetypes' to the map in question.
 local servers = {
   -- clangd = {},
+  kotlin_language_server = {},
   gopls = {
     settings = {
       gofumpt = true,
-    }
+    },
   },
   cssls = {},
   golangci_lint_ls = {},
   -- pyright = {},
   -- rust_analyzer = {},
-  -- tsserver = {},
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
   svelte = {},
   tailwindcss = {},
@@ -465,7 +509,6 @@ local servers = {
 
 -- Setup neovim lua configuration
 require('neodev').setup()
-
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
@@ -480,12 +523,12 @@ mason_lspconfig.setup {
 mason_lspconfig.setup_handlers {
   function(server_name)
     require('lspconfig')[server_name].setup {
-      capabilities = capabqlities,
+      capabilities = capabilities,
       on_attach = on_attach,
       settings = servers[server_name],
       filetypes = servers[server_name].filetypes,
     }
-  end
+  end,
 }
 
 -- [[ Configure nvim-cmp ]]
@@ -536,7 +579,6 @@ cmp.setup {
   },
 }
 
-
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 
@@ -554,7 +596,7 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undodir = os.getenv 'HOME' .. '/.vim/undodir'
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
@@ -563,10 +605,18 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
-vim.opt.isfname:append("@-@")
+vim.opt.signcolumn = 'yes'
+vim.opt.isfname:append '@-@'
 
 vim.opt.updatetime = 50
 
-vim.cmd.colorscheme 'ayu-mirage'
-vim.opt.colorcolumn = "80"
+vim.cmd.colorscheme 'onedark'
+local autocmd = vim.api.nvim_create_autocmd
+
+autocmd('FileType', {
+  pattern = 'markdown',
+  callback = function()
+    require('cmp').setup.buffer { enabled = false }
+  end,
+})
+-- vim.opt.colorcolumn = "80"

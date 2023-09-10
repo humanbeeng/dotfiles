@@ -7,8 +7,9 @@ font:
     #   - (macOS) Menlo
     #   - (Linux) monospace
     #   - (Windows) Consolas
-    # family: Fira Code Nerd Font
-    family: mononoki Nerd Font
+    # family: Consolas NF
+    # family: mononoki Nerd Font
+    family: monolisa nerd font
     # The `style` can be specified to pick a specific face.
     style: Regular
 
@@ -18,8 +19,9 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: mononoki Nerd Font
-    # family: Fira Code Nerd Font
+    # family: mononoki Nerd Font
+    # family: Consolas NF
+    family: monolisa nerd font
     # The `style` can be specified to pick a specific face.
     style: Bold
 
@@ -29,20 +31,20 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: mononoki Nerd Font
-    # family: Fira Code Nerd Font
-
+    # family: mononoki Nerd Font
+    # family: Consolas NF
+    family: monolisa nerd font
     # The `style` can be specified to pick a specific face.
     style: Italic
 
 
   # Point size
-  size: 14
+  size: 13
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
   offset:
-    x: 0
+    x: -1
     y: 7
 
   # Glyph offset determines the locations of the glyphs within their cells with
@@ -50,7 +52,7 @@ font:
   # increasing `y` moves the glyph upwards.
   glyph_offset:
     x: -1
-    y: 3
+    y: 1
   # Thin stroke font rendering (macOS only)
   #
   # Thin strokes are suitable for retina displays, but for non-retina screens
@@ -70,29 +72,29 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '#202734'
-    foreground: '#CBCCC6'
-
-  # Normal colors
-  normal:
-    black: '#191E2A'
-    red: '#FF3333'
-    green: '#BAE67E'
-    yellow: '#FFA759'
-    blue: '#73D0FF'
-    magenta: '#FFD580'
-    cyan: '#95E6CB'
-    white: '#C7C7C7'
-
-  # Bright colors
-  bright:
-    black: '#686868'
-    red: '#F27983'
-    green: '#A6CC70'
-    yellow: '#FFCC66'
-    blue: '#5CCFE6'
-    magenta: '#FFEE99'
-    cyan: '#95E6CB'
-    white: '#FFFFFF'
-
-theme: Ayu-Mirage
+    background: '#000000'
+    foreground: '#ffffff'
+#
+#   # Normal colors
+#   normal:
+#     black: '#191E2A'
+#     red: '#FF3333'
+#     green: '#BAE67E'
+#     yellow: '#FFA759'
+#     blue: '#73D0FF'
+#     magenta: '#FFD580'
+#     cyan: '#95E6CB'
+#     white: '#C7C7C7'
+#
+#   # Bright colors
+#   bright:
+#     black: '#686868'
+#     red: '#F27983'
+#     green: '#A6CC70'
+#     yellow: '#FFCC66'
+#     blue: '#5CCFE6'
+#     magenta: '#FFEE99'
+#     cyan: '#95E6CB'
+#     white: '#FFFFFF'
+#
+# theme: Ayu-Mirage

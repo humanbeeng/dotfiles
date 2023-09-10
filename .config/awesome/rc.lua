@@ -293,7 +293,7 @@ globalkeys = gears.table.join(
 	awful.key({ modkey }, "Right", awful.tag.viewnext, { description = "view next", group = "tag" }),
 	awful.key({ modkey }, "Escape", awful.tag.history.restore, { description = "go back", group = "tag" }),
 	awful.key({ modkey }, "b", function()
-		awful.util.spawn("google-chrome-stable")
+		awful.util.spawn("brave-browser")
 	end),
 
 	awful.key({ modkey }, "e", function()
@@ -380,8 +380,8 @@ globalkeys = gears.table.join(
 	-- }),
 
 	awful.key({}, "Print", function()
-		awful.util.spawn_with_shell("gnome-screenshot -a -c")
-	end, { description = "Take a screenshot of entire screen", group = "screenshot" }),
+		awful.util.spawn_with_shell("gnome-screenshot -a")
+	end, { description = "Take a screenshot of area", group = "screenshot" }),
 	-- awful.key(
 	-- 	{ modkey },
 	-- 	"Print",

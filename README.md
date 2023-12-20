@@ -7,5 +7,5 @@ I use
 - tmux
 - Neovim
 - zsh
-- AwesomeWM
+- AwesomeWM, recently switched to i3
 - Mononoki Nerd Font

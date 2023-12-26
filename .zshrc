@@ -103,6 +103,7 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias lepos='cd $HOME/projects/lepo/server; nvim'
 alias nv='pwd && nvim'
 alias tx='tmux -u'
+alias neo='cd $HOME/projects/compose-files/neo4j && docker compose up'
 
 
 export GOPATH=$HOME/go
@@ -127,3 +128,7 @@ setopt share_history
 setopt auto_cd
 alias tm=tmux-multi
 export TERM=xterm-256color
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

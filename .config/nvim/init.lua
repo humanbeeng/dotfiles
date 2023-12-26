@@ -146,7 +146,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = true,
-        theme = 'onedark',
+        -- theme = 'kanagawa',
         -- theme = function()
         --   local colors = {
         --     darkgray = '#16161d',
@@ -494,8 +494,8 @@ local servers = {
   cssls = {},
   golangci_lint_ls = {},
   -- pyright = {},
-  -- rust_analyzer = {},
-  -- html = { filetypes = { 'html', 'twig', 'hbs'} },
+  rust_analyzer = {},
+  html = { filetypes = { 'html', 'twig', 'hbs' } },
   svelte = {},
   tailwindcss = {},
   tsserver = {},
@@ -549,7 +549,7 @@ cmp.setup {
     ['<C-p>'] = cmp.mapping.select_prev_item(),
     ['<C-d>'] = cmp.mapping.scroll_docs(-4),
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
-    ['<A-Space>'] = cmp.mapping.complete {},
+    ['<C-[>'] = cmp.mapping.complete {},
     ['<CR>'] = cmp.mapping.confirm {
       behavior = cmp.ConfirmBehavior.Replace,
       select = true,
@@ -610,13 +610,5 @@ vim.opt.isfname:append '@-@'
 
 vim.opt.updatetime = 50
 
-vim.cmd.colorscheme 'onedark'
+vim.cmd.colorscheme 'kanagawa'
 local autocmd = vim.api.nvim_create_autocmd
-
-autocmd('FileType', {
-  pattern = 'markdown',
-  callback = function()
-    require('cmp').setup.buffer { enabled = false }
-  end,
-})
--- vim.opt.colorcolumn = "80"

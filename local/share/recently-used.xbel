@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/nithin/Downloads/go1.23.1.darwin-amd64.tar.gz" added="2024-09-20T17:48:04Z" modified="2024-09-20T17:48:04Z" visited="2024-09-20T17:48:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T17:48:04Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/go1.23.1.linux-amd64.tar.gz" added="2024-09-20T17:49:24Z" modified="2024-09-20T17:49:25Z" visited="2024-09-20T17:49:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T17:49:25Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/MonoLisa%20Bold%20Nerd%20Font%20Complete%20Mono.otf" added="2024-09-20T17:51:36Z" modified="2024-09-20T17:52:29Z" visited="2024-09-20T17:51:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T17:51:37Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-20T17:52:29Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/MonoLisa%20Bold%20Italic%20Nerd%20Font%20Complete%20Mono.otf" added="2024-09-20T17:51:48Z" modified="2024-09-20T17:52:29Z" visited="2024-09-20T17:51:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T17:51:48Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-20T17:52:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/MonoLisa%20Regular%20Italic%20Nerd%20Font%20Complete%20Mono.otf" added="2024-09-20T17:51:55Z" modified="2024-09-20T17:52:29Z" visited="2024-09-20T17:51:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T17:51:55Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-20T17:52:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/MonoLisa%20Regular%20Nerd%20Font%20Complete%20Mono.otf" added="2024-09-20T17:52:15Z" modified="2024-09-20T17:52:29Z" visited="2024-09-20T17:52:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T17:52:16Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-20T17:52:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/segoe-ui-this.zip" added="2024-09-20T18:39:06Z" modified="2024-09-20T18:40:52Z" visited="2024-09-20T18:39:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T18:39:06Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-09-20T18:40:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/source-sans-pro_5.1.0.zip" added="2024-09-20T18:40:13Z" modified="2024-09-20T18:40:32Z" visited="2024-09-20T18:40:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T18:40:13Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-09-20T18:40:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/gg-sans-2.zip" added="2024-09-20T18:40:22Z" modified="2024-10-06T15:19:33Z" visited="2024-09-20T18:40:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T18:40:22Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-10-06T15:19:33Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;file-roller %U&apos;" modified="2024-10-06T15:19:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/segoe-ui-4-cufonfonts.zip" added="2024-09-20T18:41:01Z" modified="2024-09-20T18:41:05Z" visited="2024-09-20T18:41:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-20T18:41:01Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-09-20T18:41:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/.local/share/fonts/SourceSansPro-Bold.ttf" added="2024-09-21T16:18:17Z" modified="2024-09-21T16:18:17Z" visited="2024-09-21T16:18:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-21T16:18:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/graph.png" added="2024-09-22T19:45:57Z" modified="2024-09-22T19:45:57Z" visited="2024-09-22T19:45:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2024-09-22T19:45:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/wallhaven-d6y12l.jpg" added="2024-09-23T15:48:09Z" modified="2024-09-23T15:48:09Z" visited="2024-09-23T15:48:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-23T15:48:09Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/wallhaven-3lepy9.jpg" added="2024-09-23T15:48:31Z" modified="2024-09-23T15:48:31Z" visited="2024-09-23T15:48:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-23T15:48:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/.local/share/fonts/.uuid" added="2024-09-23T17:49:01Z" modified="2024-09-23T17:49:01Z" visited="2024-09-23T17:49:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-23T17:49:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/source-sans-pro_5.1.0/ttf/source-sans-pro-latin-600-normal.ttf" added="2024-09-23T17:49:28Z" modified="2024-09-23T17:49:28Z" visited="2024-09-23T17:49:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-23T17:49:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/.local/share/fonts/gg%20sans%20Bold.ttf" added="2024-09-23T17:50:39Z" modified="2024-09-23T17:50:39Z" visited="2024-09-23T17:50:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-09-23T17:50:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/dotfiles/.tmux.conf" added="2024-09-23T18:13:54Z" modified="2024-09-23T18:13:54Z" visited="2024-09-23T18:13:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-23T18:13:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/dotfiles/.zshrc" added="2024-09-23T18:13:57Z" modified="2024-09-23T18:13:57Z" visited="2024-09-23T18:13:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-23T18:13:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/Fira_Code.zip" added="2024-09-23T18:20:24Z" modified="2024-09-23T18:20:26Z" visited="2024-09-23T18:20:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-23T18:20:24Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2024-09-23T18:20:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Documents/vault" added="2024-09-23T18:29:07Z" modified="2024-09-23T18:29:07Z" visited="2024-09-23T18:29:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.obsidian" exec="&apos;gio open %u&apos;" modified="2024-09-23T18:29:07Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-23T18:29:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Pictures/Screenshots/news.ycombinator.com_item_id=18442941.png" added="2024-09-26T12:49:34Z" modified="2024-09-26T12:49:34Z" visited="2024-09-26T12:49:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-09-26T12:49:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Pictures/Screenshots/Noto_Sans_Mono.zip" added="2024-10-02T18:56:08Z" modified="2024-10-02T18:56:08Z" visited="2024-10-02T18:56:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-10-02T18:56:08Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth,wght.ttf" added="2024-10-02T18:56:26Z" modified="2024-10-02T18:56:26Z" visited="2024-10-02T18:56:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-10-02T18:56:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/Noto.zip" added="2024-10-02T18:58:57Z" modified="2024-10-02T18:58:57Z" visited="2024-10-02T18:58:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;gio open %u&apos;" modified="2024-10-02T18:58:57Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/.local/share/fonts/NotoSansMNerdFont-Bold.ttf" added="2024-10-02T19:01:35Z" modified="2024-10-02T19:01:35Z" visited="2024-10-02T19:01:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2024-10-02T19:01:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/workspace/go/lepo/prototypes/analysis" added="2024-10-02T19:06:51Z" modified="2024-10-02T19:06:51Z" visited="2024-10-02T19:06:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.code" exec="&apos;gio open %u&apos;" modified="2024-10-02T19:06:51Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-02T19:06:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Downloads/1727853940571.jpeg" added="2024-10-02T19:17:04Z" modified="2024-10-02T19:17:49Z" visited="2024-10-02T19:17:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-02T19:17:49Z" count="4"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;eog %U&apos;" modified="2024-10-02T19:17:35Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2024-10-02T19:17:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Documents/NithinSJ_SDE2.pdf" added="2024-10-02T19:23:26Z" modified="2024-10-02T19:23:32Z" visited="2024-10-02T19:23:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-02T19:23:32Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Pictures/Screenshots/Screenshot%20from%202024-10-06%2023-11-38.png" added="2024-10-06T17:41:38Z" modified="2024-10-06T17:41:48Z" visited="2024-10-06T17:41:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-10-06T17:41:38Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-06T17:41:48Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Pictures/Screenshots/Screenshot%20from%202024-10-07%2015-28-15.png" added="2024-10-07T09:58:15Z" modified="2024-10-07T09:58:39Z" visited="2024-10-07T09:58:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2024-10-07T09:58:15Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-07T09:58:39Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Documents/palette.png" added="2024-10-07T10:00:00Z" modified="2024-10-07T10:00:06Z" visited="2024-10-07T10:00:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-07T10:00:06Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/Documents/NithinSJ_3YOE.pdf" added="2024-10-07T16:08:37Z" modified="2024-10-07T16:08:44Z" visited="2024-10-07T16:08:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-07T16:08:44Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nithin/workspace/dsa" added="2024-10-08T14:16:26Z" modified="2024-10-08T14:16:43Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-08T14:16:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

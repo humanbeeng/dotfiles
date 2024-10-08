@@ -1,0 +1,16 @@
+2024-09-22 23:03:28[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:258:14: missing ',' before newline in composite literal
+
+2024-09-23 00:31:56[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:329:9: missing ',' before newline in composite literal
+
+2024-09-23 00:32:32[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:266:9: missing ',' before newline in composite literal
+
+2024-09-23 00:46:35[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:258:14: missing ',' before newline in composite literal
+
+2024-09-24 23:36:26[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:43:14: missing ',' before newline in composite literal
+
+2024-09-24 23:47:04[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/extract/<standard input>:65:22: expected ';', found ','
+
+2024-09-24 23:52:02[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:381:14: missing ',' before newline in composite literal
+
+2024-09-24 23:52:09[ERROR] Formatter 'goimports' error: /home/nithin/workspace/go/lepo/prototypes/analysis/process/<standard input>:406:20: missing ',' before newline in composite literal
+

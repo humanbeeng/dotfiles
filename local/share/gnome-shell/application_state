@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.eog.desktop" score="0" last-seen="1727896658"/>
+    <application id="org.gnome.Nautilus.desktop" score="58" last-seen="1728295990"/>
+    <application id="alacritty_alacritty.desktop" score="4120" last-seen="1728409472"/>
+    <application id="code_code.desktop" score="625" last-seen="1728401798"/>
+    <application id="org.gnome.Terminal.desktop" score="0" last-seen="1728226211"/>
+    <application id="org.gnome.FileRoller.desktop" score="0" last-seen="1728227974"/>
+    <application id="org.gnome.font-viewer.desktop" score="0" last-seen="1727895697"/>
+    <application id="gnome-control-center.desktop" score="0" last-seen="1728226448"/>
+    <application id="brave-browser.desktop" score="16997" last-seen="1728409492"/>
+    <application id="obsidian_obsidian.desktop" score="2019" last-seen="1728401382"/>
+    <application id="update-manager.desktop" score="13" last-seen="1728226189"/>
+  </context>
+</application-state>

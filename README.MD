@@ -9,3 +9,16 @@ div.view-lines.monaco-mouse-cursor-text {
 ```
 
 - Then change monospace font from browser settings
+
+
+### dconf settings
+
+Export
+
+`dconf dump /org/gnome/shell/extensions/dash-to-dock/ > dconf-shell-extensions-dash.ini`
+`dconf dump /org/gnome/desktop/wm/keybindings/ > dconf-wm-keybindings.ini`
+
+Import
+
+`dconf load /org/gnome/shell/extensions/dash-to-dock/ < dconf-shell-extensions-dash.ini`
+`dconf load /org/gnome/desktop/wm/keybindings/ < dconf-wm-keybindings.ini`
